@@ -40,7 +40,6 @@ const Chat = (props: any) => {
             {/* Display chat messages */}
             <div className="overflow-y-auto flex flex-col flex-auto align-top space-y-4 p-4">
                 {chat.map((msg: Message, idx) => {
-                    console.log(msg.id, userId)
                     return (
                         <div className={`flex flex-row${msg.id === userId ? "-reverse" : ""} items-center h-16`} key={idx}>
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 mx-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
