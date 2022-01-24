@@ -37,8 +37,10 @@ const Chat = (props: any) => {
     return (
         <div className='flex flex-col justify-between flex-auto rounded-tl-xl border-1 shadow'>
             <div className="h-16 font-semibold text-2xl p-4 bg-gradient-to-r text-white from-blue-500 via-cyan-500 to-blue-500">Chat Messages</div>
+            {/* Display chat messages */}
             <div className="overflow-y-auto flex flex-col flex-auto align-top space-y-4 p-4">
                 {chat.map((msg: Message, idx) => {
+                    console.log(msg.id, userId)
                     return (
                         <div className={`flex flex-row${msg.id === userId ? "-reverse" : ""} items-center h-16`} key={idx}>
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 mx-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -54,6 +56,7 @@ const Chat = (props: any) => {
                 <p className='flex-none'>New Message</p>
                 <p className='border-y flex-auto border-blue-600 mt-2'></p>
             </div>
+            {/* Input to send new message */}
             <div className="flex felx-row justify-evenly items-center m-2">
                 <input
                     className="h-24 w-full m-2 shadow-xl rounded-lg px-4"
