@@ -1,7 +1,6 @@
 # React Chat App
 
-you can run the project with:
-
+To run the project:
 ### `npm start`
 
 Runs the app in the development mode.\
