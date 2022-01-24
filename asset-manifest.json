@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Iaoouvy/react-chat-app/static/css/main.03c5833e.css",
+    "main.js": "/Iaoouvy/react-chat-app/static/js/main.289a3024.js",
+    "index.html": "/Iaoouvy/react-chat-app/index.html",
+    "main.03c5833e.css.map": "/Iaoouvy/react-chat-app/static/css/main.03c5833e.css.map",
+    "main.289a3024.js.map": "/Iaoouvy/react-chat-app/static/js/main.289a3024.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03c5833e.css",
+    "static/js/main.289a3024.js"
+  ]
+}
